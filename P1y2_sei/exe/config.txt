@@ -1,0 +1,18 @@
+#comienza el fichero de configuracion de P1 SI 2024
+
+#probando los comandos
+
+& clave clave.txt
+#Fichero a codificar
+
+#& ficheroentrada Antonio.txt
+@ codifica ON
+& chase
+
+#Vamos a recuperar el original descifrando
+& ficheroentrada salida.txt
+
+& ficherosalida entradarestaurada.txt
+@ codifica OFF
+& chase
+# fin del fichero de configuracion

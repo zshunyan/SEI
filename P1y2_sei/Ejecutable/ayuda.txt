@@ -1,0 +1,31 @@
+Uso del programa P1y2_si2024:
+
+Argumentos:
+  -f <fichero>  : Especifica un fichero de texto con la configuracion bajo la cual ha de funcionar el programa.
+                  Este fichero debe seguir la especificacion detallada en el documento de la practica.
+  -h            : Muestra esta ayuda y termina la ejecucion del programa.
+
+Ejemplos de uso:
+  java -jar P1y2_si2024.jar -f config.txt
+  java -jar P1y2_si2024.jar -h
+
+Formato del fichero de configuracion:
+  El fichero de configuracion debe ser un archivo TXT con las siguientes posibles lineas:
+    - Linea vacia: Para formatear el fichero.
+    - Comentario: Comienza con `#`.
+    - Banderas: Comienza con `@` y puede ser `@ codifica ON/OFF` o `@ traza ON/OFF`.
+    - Comandos: Comienza con `&` y puede ser `& ficheroentrada <fichero>`, `& ficherosalida <fichero>`, `& clave <fichero>`, `& chase`.
+
+Descripcion de las banderas y comandos:
+  @ codifica ON/OFF : Activa o desactiva el modo de codificacion.
+  @ traza ON/OFF    : Activa o desactiva la traza del programa.
+  & ficheroentrada <fichero> : Especifica el fichero de entrada.
+  & ficherosalida <fichero>  : Especifica el fichero de salida.
+  & clave <fichero>          : Especifica el fichero de clave.
+  & chase                    : Ejecuta el proceso de cifrado o descifrado.
+
+Notas:
+  - El fichero de entrada debe contener el texto en claro o el criptograma, una linea por cada elemento a procesar.
+  - El fichero de clave debe seguir el formato especificado en el documento de la practica.
+  - El programa informara de cualquier error en la configuracion o en los ficheros de entrada/salida.
+

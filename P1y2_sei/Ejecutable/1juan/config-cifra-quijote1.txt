@@ -1,0 +1,16 @@
+#comienza el fichero de configuracion de P1 SI 2024 para corregir la practica
+#version 9 de octubre 2024
+
+& clave ./1juan/fuentes/clave1.txt
+
+& ficheroentrada ./1juan/fuentes/quijote1.txt
+& ficherosalida ./1juan/finales/criptograma1.txt
+
+& chase
+@ codifica OFF
+
+& ficheroentrada ./1juan/finales/criptograma1.txt
+& ficherosalida ./1juan/finales/quijote1recuperado.txt
+& chase
+
+# fin del fichero de configuracion

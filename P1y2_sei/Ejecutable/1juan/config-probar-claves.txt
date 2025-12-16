@@ -1,0 +1,35 @@
+#revision del trabajo con las claves
+#version 9 octubre 2024
+
+ & chase
+
+& clave ./1juan/fuentes/clave_mal.txt
+& clave ./1juan/fuentes/clave_mal2.txt
+& clave ./1juan/fuentes/clave_mal3.txt
+
+& clave ./1juan/fuentes/clave1.txt
+
+& clave  ./1juan/fuentes/clave2.txt
+
+#comienza el fichero de configuracion de P1 SI 2024 para corregir la practica
+#version 9 de octubre 2024
+
+ @ traza OFF      //linea invalida
+ & ficheroentrada entrada.txt   //linea invalida
+
+#probando las banderas
+
+# bandera invalida
+@ salidafichero ON
+
+#probando los comandos
+@ traza OFF 
+& clave ./1juan/fuentes/clave_mal.tx
+
+& clave ./1juan/fuentes/clave_mal2.tx
+
+@ traza ON
+& clave ./1juan/fuentes/clave1.txt
+
+
+# fin del fichero de configuracion

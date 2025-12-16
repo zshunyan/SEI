@@ -1,0 +1,14 @@
+Autor: Juan Arias Masa
+Fecha:  24 sep 2024
+Revision:
+
+ejemplo de ejecucion de la practica 1 de Seguridad de la Informacion Curso 2024-25
+la ejecucion termina el 5 de noviembre de 2024
+
+SOLO FUNCIONA CON JAVA VERSION "20.0.2"   2023-07-18
+
+posible llamada:
+> java -jar P1.SI.2024_en.jar -f config.txt
+
+tambien se puede llamar con el fichero bat:
+>P1_SI.2024 <intro>
